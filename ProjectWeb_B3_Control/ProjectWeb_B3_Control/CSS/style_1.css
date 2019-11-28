@@ -1,0 +1,40 @@
+﻿body {
+    background-color: burlywood;
+    font-family: 'Courier New';
+    font-size: 14px;
+}
+.display{
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 15px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+.panel_1{
+    float: left;
+    width: 50%;
+    text-align: left;
+    height: 150px;
+}
+.panel_2 {
+    float: right;
+    width: 50%;
+    text-align: left;
+    height: 150px;
+}
+.result{
+    color: red;
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}

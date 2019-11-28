@@ -1,0 +1,66 @@
+﻿body {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    height: 28px;
+    padding: 5px;
+}
+
+.header b {
+    float: right;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.content {
+    width: 900px;
+    height: 500px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url('../pic/bg_if.jpg');
+    background-size: cover;
+}
+
+.sub-head {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.picture-user, .infor-user {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.picture-user {
+    width: 25%;
+    vertical-align: top;
+}
+
+.picture {
+    width: 190px;
+    height: 270px;
+    border: 1px solid black;
+}
+
+.infor-user {
+    width: 70%;
+    vertical-align: middle;
+    color: #2a3bfc;
+}
+
+#btnAccept, #btnCancel {
+    background-color: black;
+    color: white;
+    border: none;
+}

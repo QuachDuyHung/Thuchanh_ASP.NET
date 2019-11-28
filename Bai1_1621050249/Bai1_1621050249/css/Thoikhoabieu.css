@@ -1,0 +1,54 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.infor {
+    text-align: center;
+}
+
+.header p {
+    color: red;
+}
+
+.tkb {
+    /* padding-left: 200px; */
+    text-align: center;
+    overflow: hidden;
+}
+
+table {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p, i {
+    color: #8E9495;
+}
+
+div b {
+    color: #008059;
+}
+
+.stuff {
+    background-color: #008BCE;
+    color: white;
+}
+
+.details {
+    background-color: #008BCE;
+    color: white;
+    text-align: center;
+    width: 60px;
+}
+
+td {
+    width: 120px;
+    height: 15px;
+}
+
+.learn-more {
+    text-align: left;
+    background-color: #FFFFD7;
+}

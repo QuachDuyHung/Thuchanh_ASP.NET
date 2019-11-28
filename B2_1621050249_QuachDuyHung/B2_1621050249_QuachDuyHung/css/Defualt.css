@@ -1,0 +1,97 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../pic/bg3.jpg');
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 1px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    height:auto;
+    border: 0.5px solid #d3d2d2;
+    margin: 20px auto;
+}
+.header{
+    text-align: center;
+    background-color: #3268f5;
+    height: 60px;
+    color: white;
+}
+h1{
+    margin: 0px;
+    line-height: 60px;
+}
+.clear{
+    width: 95%;
+    height: 1px;
+    margin: 20px auto;
+    background-color: #e4e1e1;
+    clear: both;
+}
+.sub-head1, .sub-head2{
+    background-color: #00ff21;
+    width: 95%;
+    margin: 20px auto;
+}
+.sub-head1{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.content-1 {
+    width: 95%;
+    margin: 20px auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+.picture-user{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info-user {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sub-head2 {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.content-2 {
+    width: 95%;
+    margin: 20px auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+.pic-poem {
+    width: 40%;
+    border: 1px solid #808080;
+    display: inline-block;
+    vertical-align: middle;
+}
+.poem {
+    width: 55%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    color: blue;
+}
+.today {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background-color: #282727;
+    color: white;
+    line-height: 25px;
+}
+#2, #3, #4{
+    display: none;
+}

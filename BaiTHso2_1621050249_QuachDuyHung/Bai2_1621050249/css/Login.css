@@ -1,0 +1,108 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 50px;
+    font-family: Arial;
+    background-image: url('../image/body.jpg');
+}
+.header {
+    width: 1000px;
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    background-color: darkblue;
+    /*border-radius: 3px;*/
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.main {
+    width: 1000px;
+    height: 520px;
+    border: 1px solid #E5E0E0;
+    border-radius: 3px;
+    margin: auto;
+    background-color: white;
+}
+.content {
+    text-align: center;
+    overflow: hidden;
+}
+.col {
+    /*width: 520px;
+    height: 370px;
+    float:left;
+    border: 0.5px solid #E5E0E0;
+    border-radius: 5px;
+    padding: 10px;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    /*align-items: center;*/ 
+    border: 0.5px solid #E5E0E0;
+    border-radius: 5px;
+}
+#hinhanh {
+    width: 550px;
+    padding: 5px;
+}
+#login{
+    width: 250px;
+    height: 120px;
+    padding: 5px;
+}
+p{
+    text-align: left;
+    padding: 10px;
+}
+.w3-text {
+    width: 280px;
+    /*-moz-border-radius: 3px;
+    -webkit-border-radius: 5px;*/
+}
+.btn{
+    padding: 10px;
+    margin-left: -10px;
+    color: white;
+}
+#btn1{
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+#btn2 {
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.footer {
+    width: 1000px;
+    border: 0.5px solid #E5E0E0;
+    border-radius: 5px;
+    background-color: #bfe6f0;
+    text-align: center;
+    overflow: hidden;
+}
+.footer-1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+#humg{
+    font-size: 35px;
+    color: dodgerblue;
+}
+#link {
+    font-size: 12px;
+    color: dodgerblue;
+}
+#license{
+    color: #0c11a4;
+}

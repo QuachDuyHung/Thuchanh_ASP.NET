@@ -1,0 +1,28 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+
+    background-image: url('../Img/vietnamquehuongtoi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 1px;
+}
+
+div {
+    padding-top: 100px;
+}
+
+p {
+    width: 700px;
+    padding-left: 130px;
+    font-size: 23px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+b {
+    font-size: 40px;
+}

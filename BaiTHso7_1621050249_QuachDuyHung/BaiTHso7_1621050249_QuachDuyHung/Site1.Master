@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BaiTHso7_1621050249_QuachDuyHung.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Hệ thống quản lý thông tin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Style/Home.css" rel="stylesheet" />
+    <link href="Style/w3.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="w3-light-grey">
+    <form id="form1" runat="server">
+        <div>
+            <!-- Top container -->
+            <div class="w3-bar w3-top w3-black w3-large" style="z-index: 4">
+                <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</button>
+                <span class="w3-bar-item w3-right">Hệ thống quản lý thông tin</span>
+            </div>
+            <div style="display: flex; overflow: hidden; padding-top: 42px;">
+                <div class="sideBar" style="margin-right: 10px; width: 20%; display: inline-block;">
+                    <!-- Sidebar/menu -->
+                    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index: 3; width: 300px;" id="mySidebar">
+                        <br>
+                        <div class="w3-container w3-row">
+                            <div class="w3-col s4">
+                                <img src="/Picture/user.png" class="w3-circle w3-margin-right" style="width: 46px">
+                            </div>
+                            <div class="w3-col s8 w3-bar">
+                                <span>Chào mừng, <strong>admin</strong></span><br>
+                                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+                                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+                                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="w3-container" style="background-color: #4ea926; color: white;">
+                            <h5>DANH MỤC CHỨC NĂNG</h5>
+                        </div>
+                        <div class="w3-bar-block">
+                            <a id="a-Home" href="Home.aspx" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;Trang chủ</a>
+                            <a id="a-SV" href="frm_sinhvien_view.aspx" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw"></i>&nbsp;&nbsp;Hồ sơ sinh viên</a>
+                            <a id="a-GV" href="frm_giangvien_view.aspx" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>&nbsp;&nbsp;Hồ sơ giảng viên</a>
+                            <a id="a-DA" href="frm_doan_view.aspx" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>&nbsp;&nbsp;Hồ sơ đồ án</a>
+                            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lock fa-fw"></i>&nbsp;&nbsp;Quản lý tài khoản</a>
+                            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-plus-circle fa-fw"></i>&nbsp;&nbsp;Quản trị danh mục</a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="" style="width: 80%; display: inline-block; margin-bottom: 70px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            
+            <div class="w3-bottom" style="z-index: 5; background-color: #6cb8f7; padding-left: 20px; font-size: 13px;">
+                <p>BẢN QUYỀN THUỘC VỀ KHOA CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC MỎ ĐỊA CHẤT <br />
+                Địa chỉ: Tầng 7 nhà C12 số 18 Phố Viên - Phường Đức Thắng - Bắc Từ Liêm - Hà Nội</p>
+            </div>
+
+        </div>
+    </form>
+
+    <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
+
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = "none";
+                overlayBg.style.display = "none";
+            } else {
+                mySidebar.style.display = "block";
+                overlayBg.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>

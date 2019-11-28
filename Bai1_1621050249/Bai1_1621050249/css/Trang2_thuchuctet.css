@@ -1,0 +1,14 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7d6c5;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    height: 100%;
+}

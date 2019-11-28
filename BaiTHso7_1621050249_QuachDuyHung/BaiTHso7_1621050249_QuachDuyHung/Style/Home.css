@@ -1,0 +1,63 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+tr:hover td{
+    background-color: #b4b4b4;
+}
+a:hover{
+    color: yellow;
+}
+.txt_search{
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+}
+.btn_search {
+    margin-left: 20px;
+    background-color: #429c1b;
+    border: none;
+    color: white;
+    padding: 3px 10px;
+}
+.btn_search:hover{
+    background-color: #227a07;
+}
+.ddl_Khoa {
+    margin-left: 250px;
+    width: 150px;
+    height: 30px;
+}
+.ddl_CN{
+    float: right;
+    width: 280px;
+    height: 30px;
+}
+.ddl_LV{
+    width: 300px;
+    margin-left: 20px;
+    height: 30px;
+}
+.ddl_GVHD {
+    margin-left: 20px;
+    width: 280px;
+    height: 30px;
+}
+.ddl_Diem {
+    float: right;
+    width: 150px;
+    height: 30px;
+}
+.btn_add{
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn_add:hover{
+    background-color: #7a7a7a;
+    color: black;
+}
